@@ -10,5 +10,11 @@ tags
 .DS_Store
 .vscode/
 
+#Jupyter Notebook
+.ipynb_checkpoints
+
 # Scratch folder
 scratch/
+
+# Julia
+Manifest.toml
