@@ -1,0 +1,14 @@
+# Vim
+*.swp
+*.swo
+*~
+.*.swp
+.*.swo
+tags
+
+# MacOS
+.DS_Store
+.vscode/
+
+# Scratch folder
+scratch/
