@@ -12,7 +12,7 @@ A light, hands-on set of notes and notebooks for my tutorial at **TIFR** on non-
 
 This repository currently contains two Jupyter notebooks (using **Julia** + **ITensors.jl**) that build intuition and practical workflow:
 
-1. **1D transverse-field Ising (TFI) chain**
+1. **1D transverse-field Ising (TFI) chain DMRG**
    - Define a quantum wavefunction and spin-chain Hamiltonians as **MPS** and **MPO**.
    - Use **DMRG** to find ground states.
    - Explore **phases** and the **phase transition** by scanning parameters.
@@ -21,6 +21,9 @@ This repository currently contains two Jupyter notebooks (using **Julia** + **IT
 2. **2D system via snake-DMRG**
    - Map a 2D lattice to a 1D **“snake” ordering**.
    - Watch the **bond dimension** <sub>grow</sub> and grow and <strong><em>GROW</em></strong> with system size.
+
+3. **1D TFI chain ground state search and time evolution using neural network Quantum States (NNQS)**
+   - This notebook is written in Python, and has the theory and implementation of ground state search, stochastic reconfiguration, and time evolution of 1D TFI models. It uses *NetKet* to perform the simulations. 
 
 ## Getting started
 
